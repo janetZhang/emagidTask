@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******reset********/
+
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+nav, section, aside, footer, header,article {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+/***** for html5*****/
+article,aside,dialog,footer,header,section,nav,figure,menu{
+	display: block;
+}
+/*****general style****/
+body {
+	font-family: Arial, Verdana, sans-serif;
+	text-align: left;
+	margin: 0 auto;
+	width: auto;	
+	background: #eaeef1;
+}
+
+ul{
+	list-style-type: none;
+}
+ #center-header,#main, footer{
+	 width: 980px;
+	 border: solid 1px #d6dfe2;
+	 margin: 0 auto;
+}
+ a:link, a:visited{
+	color: #777777;
+	text-decoration: none;	
+}
+a:hover, a:active{
+	color: rgb(36,137,204);
+}
+/************header************/
+ #center-header{
+	color:#636f79;
+	background: #d6dfe2;
+	height: 100px;
+}
+#center-header h1{
+	font-size: 20px;
+	padding: 5px;
+}
+#center-header h2{
+	text-align:right;
+	font-size: 14px;
+	margin-top:35px;
+	padding: 5px;
+}
+#banner{
+	background: #83aeba;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+}
+#banner ul,#banner ul li{
+	display: inline;
+	color: #000;
+}
+/************main left**************/
+#main{
+	padding: 10px 0;
+	border:none;	
+}
+#left{
+	float: left;
+	width: 210px;
+	height: auto;
+	background: #d6dfe2;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+#left ul{
+	padding: 20px 3px;
+}
+#left ul li a{
+	margin: 2px 5px;
+	line-height:150%;
+}
+/************main right*************/
+#right{
+	width: 740px;
+	padding: 10px;
+	margin-bottom: 5px;
+	float: right;
+	height: auto;
+	border: solid 1px #ccc222;	
+}
+
+.right-top{
+	padding:10px 0;
+	margin:0 auto;
+	text-align: center;
+}
+.right-top .add-new a{
+	color:#000;
+	background-color: #396;
+	width: 50px;
+	padding: 5px 7px;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+#result tr:nth-child(even) {
+    background-color: #eed;
+}
+#result tr:nth-child(odd) {
+    background-color: #eaeef1;
+}
+#right .tabs{
+	height: 28px;
+	margin: 7px;
+}
+#p-form,#c-form{
+	cursor: pointer;
+	width: 103px;
+	margin: 7px;
+	padding: 5px 20px;
+	background-color: #83aeba;
+}
+#p-form{
+	background-color: #396;
+}
+#tab2{
+	display: none;
+}
+.txt{
+	margin: 5px 0 5px 90px	
+}
+form{
+	padding: 5px;
+}
+select,input, textarea,.save-btn{
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;	
+	padding: 5px 2px;
+	margin-left: 5px;
+	border:solid 1px #CCC;
+	line-height: 150%;
+}
+select{
+	width: 200px;
+	}
+.save-btn{
+	margin: 5px 300px;
+	border:solid 1px #CCC;
+	padding: 5px 10px;
+	cursor: pointer;
+	background-color: #83aeba;
+}
+.page_result span{
+	width: 100px;
+	padding:2px 5px;
+}
+.pagination-bar{
+	text-align: center;
+	margin: 0 auto;
+}
+.pagination-bar ul li{
+	display: inline;
+}
+.pagination-bar .paginate_click{
+
+	width: 40px;
+	line-height:120%;
+	margin: 0 2px;
+	padding: 5px 8px;
+	background-color: #83aeba;
+}
+.pagination-bar .active{
+	color: #000;
+	background-color: #396;
+}
+/**************footer**********/
+footer{
+	text-align:center;	
+	background: #d6dfe2;	
+	clear: right;
+	border:none;
+	padding: 10px 0;
+
+	height: 30px;
+}
